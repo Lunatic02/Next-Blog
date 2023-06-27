@@ -9,13 +9,13 @@ export default function Navbar() {
           <Link href="/" className='text-white/90 no-underline hover:text-white'>Lucas Costa</Link>
         </h1>
         <div className='flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl'>
-          <Link className='text-white/90 hover:text-white' href="https://youtube.com">
+          <Link className='text-white/90 hover:text-white' href="https://instagram.com" target='_blank'>
             <FaInstagram />
           </Link>
-          <Link className='text-white/90 hover:text-white' href="https://youtube.com">
+          <Link className='text-white/90 hover:text-white' href="https://github.com" target='_blank'>
             <FaGithub />
           </Link>
-          <Link className='text-white/90 hover:text-white' href="https://youtube.com">
+          <Link className='text-white/90 hover:text-white' href="https://linkedin.com" target='_blank'>
             <FaLinkedin />
           </Link>
         </div>
